@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{geometry}
+\usepackage{bm}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+
+\title{}
+
+\begin{document}
+\maketitle
+\begin{equation}
+P(\bm{Z},\bm{W};\alpha,\beta) = \prod_{j=1}^{M}\frac{\Gamma(\sum_{i=1}^{K}\alpha_i)\prod_{i=1}^{K}\Gamma(n_{j,(\cdot)}^i + \alpha_i)}{\prod_{i=1}^{K}\Gamma(\alpha_i)\Gamma(\sum_{i=1}^{K}n_{j,(\cdot)}^i+\alpha_i)} 
+\end{equation}
+\end{document}
